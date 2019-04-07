@@ -1,0 +1,32 @@
+{
+    "name": "form-synergy/site-verification",
+    "description": "This template will attempt to verify the domain name where service will be rendered.",
+    "keywords": [
+        "form",
+        "synergy",
+        "package",
+        "web strategy",
+        "objectives",
+        "interactions",
+        "contact form",
+        "new letter subscription",
+        "request call back"
+    ],
+    "homepage": "https://formsynergy.com/",
+    "license": "MIT",
+    "authors": [{
+        "name": "Joseph G Chamoun",
+        "email": "formsynergy@gmail.coom",
+        "homepage": "https://github.com/form-synergy"
+    }],
+    "require": {
+        "php": ">=7.0",
+        "form-synergy/php-api": ">=1"
+    },
+    "replace": {
+        "form-synergy/site-verification": "self.version"
+    },
+    "autoload": {
+        "files": ["src/template.php"]
+    }
+}
